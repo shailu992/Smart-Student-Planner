@@ -8,7 +8,7 @@ A simple and clean web-based study planner that helps students organize daily ta
 👉 Try it here: https://inspiring-lollipop-647f4d.netlify.app/gi  
 
 ## 🎥 Video Demo
-👉 Watch on YouTube:https://youtu.be/Xj2LNEDVX-4
+👉 Watch on YouTube: https://youtu.be/Xj2LNEDVX-4
 
 ---
 
