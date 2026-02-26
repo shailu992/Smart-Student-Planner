@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Student Planner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2 id="greeting"></h2>
+    <p id="date"></p>
+    <p id="quote" class="quote"></p>
+
+    <h1>Daily Task & Study Organizer</h1>
+
+    <input type="text" id="taskInput" placeholder="Enter your task">
+
+    <select id="priority">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+    </select>
+
+    <button onclick="addTask()">Add Task</button>
+
+    <div class="filters">
+        <button onclick="filterTasks('all')">All</button>
+        <button onclick="filterTasks('completed')">Completed</button>
+        <button onclick="filterTasks('pending')">Pending</button>
+    </div>
+
+    <ul id="taskList"></ul>
+    <p id="emptyMessage" class="empty">
+        No study tasks yet. Add your first goal and start achieving!
+    </p>
+
+    <div class="progress-card">
+        <h3>Progress</h3>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <p id="progressText">0% Completed</p>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>🎉 Congratulations!</h2>
+            <p id="popupMessage"></p>
+            <button onclick="closePopup()">Close</button>
+        </div>
+    </div>
+    
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
